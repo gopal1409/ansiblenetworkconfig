@@ -1,0 +1,19 @@
+R4 COnfiguration
+conf t
+hostname R4
+int f0/0
+no sh
+ip add 192.168.122.53 255.255.255.0
+usern cisco pas cisco
+user cisco priv 15
+lin vty 0 4
+tr i a
+logi loc
+exi
+ip domain-n netautomation.com
+
+
+cry key gen rsa
+#type 1024
+exit
+wr
