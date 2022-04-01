@@ -40,7 +40,6 @@ wr
 
 #####################
 SW2
-SW1
 conf t
 hostname SW1
 int g0/0
